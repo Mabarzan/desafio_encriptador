@@ -108,11 +108,12 @@ main .resultado .mensaje_encontrado{
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    width: 90%;
     
 }
 main .resultado .mensaje_encontrado h3 {
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 main .resultado .mensaje_encontrado button {
     margin-bottom: 2em;
@@ -127,6 +128,13 @@ main .resultado .no_encontrado {
 }
 main .resultado .mensaje_encontrado {
     display: none;
+}
+#mensaje_final {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    max-width: 100%;
+    box-sizing: border-box;
+    white-space: pre-wrap;
 }
 @media screen and (max-width: 1400px) {
     main .resultado_mensaje {
